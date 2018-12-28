@@ -3,7 +3,8 @@
 -	[`8.0`, `8` (*8.0/Dockerfile*)](https://github.com/rwsdigital/odoo-docker/blob/master/8.0/Dockerfile)
 -	[`9.0`, `9` (*9.0/Dockerfile*)](https://github.com/rwsdigital/odoo-docker/blob/master/9.0/Dockerfile)
 -	[`10.0`, `10` (*10.0/Dockerfile*)](https://github.com/rwsdigital/odoo-docker/blob/master/10.0/Dockerfile)
--	[`11.0`, `11`, `latest` (*11.0/Dockerfile*)](https://github.com/rwsdigital/odoo-docker/blob/master/11.0/Dockerfile)
+-	[`11.0`, `11` (*11.0/Dockerfile*)](https://github.com/rwsdigital/odoo-docker/blob/master/11.0/Dockerfile)
+-	[`12.0`, `12`, `latest` (*12.0/Dockerfile*)](https://github.com/rwsdigital/odoo-docker/blob/master/12.0/Dockerfile)
 
 Latest Nightly Build Support + Werkzeug Real Client IP (Proxy Mode)
 ======
@@ -13,5 +14,7 @@ Furthermore, if you'll enable proxy mode in the odoo.conf and correctly configur
 
 Features
 ======
-- Latest Nightly Build Support (8, 9, 10, 11)
+- Latest Nightly Build Support (8, 9, 10, 11, 12)
 - Werkzeug Real Client IP (Proxy Mode) (10, 11)
+- Upgraded PIP version to avoid problem with setup.py during installation of some packages (es. pysftp) (8, 9, 10, 11, 12)
+

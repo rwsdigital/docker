@@ -50,6 +50,9 @@ ENV ODOO_RC /etc/odoo/odoo.conf
 # Copy wsgi_server.py with real-ip log fix in proxy mode
 COPY ./wsgi_server.py /usr/lib/python2.7/dist-packages/odoo/service/wsgi_server.py
 
+# Upgrade PIP to avoid problem with setup.py during installation of some packages
+RUN pip install --upgrade pip
+
 # Set default user when running the container
 USER odoo
 

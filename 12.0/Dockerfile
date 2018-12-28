@@ -54,6 +54,9 @@ EXPOSE 8069 8071
 # Set the default config file
 ENV ODOO_RC /etc/odoo/odoo.conf
 
+# Upgrade PIP to avoid problem with setup.py during installation of some packages
+RUN pip install --upgrade pip
+
 # Set default user when running the container
 USER odoo
 
