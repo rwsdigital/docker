@@ -54,7 +54,7 @@ ENV ODOO_RC /etc/odoo/odoo.conf
 COPY ./wsgi_server.py /usr/lib/python2.7/dist-packages/odoo/service/wsgi_server.py
 
 # Upgrade PIP to avoid problem with setup.py during installation of some packages
-RUN pip install --upgrade pip
+RUN pip3 install --upgrade pip
 
 # Set default user when running the container
 USER odoo
