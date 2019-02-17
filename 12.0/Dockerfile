@@ -59,5 +59,5 @@ RUN pip3 install --upgrade pip
 # Set default user when running the container
 USER odoo
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["sh", "/docker-entrypoint.sh"]
 CMD ["odoo"]
