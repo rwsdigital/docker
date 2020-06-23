@@ -1,3 +1,5 @@
+# Current Build Date: 23/06/2020
+
 # Supported tags and respective `Dockerfile` links
 
 -	[`8.0`, `8` (*8.0/Dockerfile*)](https://github.com/rwsdigital/odoo-docker/blob/master/8.0/Dockerfile)
